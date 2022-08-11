@@ -15,7 +15,7 @@
     <div class = "contains">
 
       <div class = "contents">
-        <h3>Hi, <span>Admin</span></h3>
+        <h3><span>Website</span></h3>
         <h1>Welcome <span></span></h1>
         <p>This is an admin page</p>
         <a href = "login_page.php" class = "btn">login</a>
