@@ -1,0 +1,358 @@
+
+.contains{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  padding-bottom: 60px;
+  font-family: impact;
+}
+
+.contains .contents{
+  text-align: center;
+}
+
+.contains .contents h3{
+  font-size: 30px;
+  color: #333;
+}
+
+.contains .contents h3 span{
+  background: crimson;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.contains .contents h1{
+  font-size: 50px;
+  color: #333;
+}
+
+.contains .contents h1 span{
+  color: crimson;
+}
+
+.contains .contents p{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.contains .contents .btn{
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  background: #333;
+  color: #fff;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+
+.contains .btn:hover{
+  background: crimson;
+}
+
+.form-container{
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 60px;
+  background: #eee;
+  font-family: impact;
+}
+
+
+.form-container .form{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  background: #fff;
+  width: 800px;
+}
+
+.form-container .form p{
+  text-align: center;
+}
+
+.form-container .form h1{
+  font-size: 20px;
+  text-transform: capitalize;
+  margin: 0px;
+  color: #333;
+  padding: 10px;
+  background: rgba(0, 0, 0, .2);
+  border: outset grey;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.form-container .form .form-control h2{
+  font-size: 19px;
+  text-transform: capitalize;
+  margin: 0 0 0 30px;
+  color: rgba(0, 0, 0, .8);
+  text-align: left;
+}
+
+.form-container .form .form-control label{
+  font-size: 19px;
+  margin-left: 40px;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, .5);
+}
+
+#npt{
+  width: 85%;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: 17px;
+  background: #eee;
+  font-family: impact;
+  border-radius: 5px;
+  display: block;
+}
+
+#npt-btn{
+  width: 90%;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: 10px;
+  font-size: 17px;
+  text-align: left;
+  background: #eee;
+  font-family: impact;
+  border-radius: 5px;
+  display: block;
+}
+
+.form-container .form .form-control select{
+  width: 85%;
+  padding: 10px 20px;
+  margin-left: auto;
+  margin-right: 30px;
+  font-size: 17px;
+  font-family: impact;
+  background: #eee;
+  border-radius: 5px;
+  display: block;
+}
+
+.form-container .form .form-control select option{
+  background: #fff;
+}
+
+.form-control#subref{
+  padding: 20px 0px 0px 450px;
+  margin:5px;
+  display: inline-table;
+}
+
+.form-container .form p{
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.form .container .form p a{
+  color: crimson;
+}
+
+
+
+
+
+
+
+
+/*table*/
+.list{
+  display: block;
+  align-items: center;
+  justify-content: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #eee;
+  font-family: impact;
+}
+
+.list .form{
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+
+.list form .form{
+  max-width: 150vh;
+  min-height: 80vh;
+}
+
+th{
+  width: 15.5vh;
+}
+
+#table{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border: 7px outset grey;
+  border-radius: 15px;
+  display: block;
+}
+
+.logout{
+  position: absolute;
+  top: 120px;
+  right: 250px;
+}
+
+.add-user{
+  position: absolute;
+  top: 120px;
+  right: 400px;
+}
+
+.add-admin{
+  position: absolute;
+  top: 120px;
+  right: 600px;
+}
+
+#active{
+  background-color: green;
+  display: inline;
+  border-radius: 5px;
+}
+
+.status{
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  color: black;
+}
+/*
+tr:first-child td .status{
+  visibility: hidden;
+}
+*/
+
+#deactivate{
+  background-color: crimson;
+  display: inline;
+  border-radius: 5px;
+}
+
+#consistent{
+  background-color: rgba(0, 0, 250, 0.6);
+  color: black;
+  text-transform: capitalize;
+  font-size: 20px;
+  cursor: pointer;
+  border: 3px outset white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: impact;
+}
+
+#consistent:hover{
+  border: 3px outset white;
+  background-color: rgba(0, 0, 250, 0.6);
+  color: #fff;
+}
+
+#consistent:active{
+  border: 3px inset white;
+  color: #fff;
+}
+
+.form h1{
+  font-size: 65px;
+  margin: 0px;
+  color: #333;
+  padding: 10px;
+  background: rgba(0, 0, 0, .2);
+  border: outset grey;
+  border-radius: 5px;
+  text-align: left;
+}
+
+
+.list .form .container tbody tr #btn{
+  display: inline;
+  padding: 5px 12px 5px 12px;
+  border-radius: 5px;
+}
+
+
+.btn-edit{
+  background: green;
+  color: white;
+}
+
+/*
+tr:first-child td .btn-edit{
+  visibility: hidden;
+  background: green;
+  color: white;
+}
+
+tr:first-child td .btn-delete{
+  visibility: hidden;
+  background: green;
+  color: white;
+}
+*/
+
+.btn-view{
+  background: blue;
+  color: white;
+}
+
+.btn-delete{
+  background: crimson;
+  color: white;
+}
+
+.container th, .container tr, .container td{
+  min-height: 40px;
+  padding: 10px;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.container th{
+  font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*.container tr:first-child td{
+  background: white;
+}*/
+
+
+.container td{
+  color: black;
+  background: rgba(0, 0, 0, 0.005);
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 21px;
+}
+
+.container td:last-child{
+  width:150px;
+}
